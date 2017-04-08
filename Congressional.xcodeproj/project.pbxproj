@@ -445,6 +445,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = QMN578H652;
 				INFOPLIST_FILE = CongressionalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eccentricayman.CongressionalTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -460,6 +461,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = QMN578H652;
 				INFOPLIST_FILE = CongressionalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eccentricayman.CongressionalTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -515,6 +517,7 @@
 				C2F9A8551E99316800158C4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2F9A8561E99316800158C4D /* Build configuration list for PBXNativeTarget "CongressionalTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +526,7 @@
 				C2F9A8581E99316800158C4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2F9A8591E99316800158C4D /* Build configuration list for PBXNativeTarget "CongressionalUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +535,7 @@
 				C2F9A85B1E99316800158C4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
