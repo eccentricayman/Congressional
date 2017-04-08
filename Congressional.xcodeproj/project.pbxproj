@@ -193,7 +193,6 @@
 				TargetAttributes = {
 					C2F9A82A1E99316800158C4D = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = QMN578H652;
 						ProvisioningStyle = Automatic;
 					};
 					C2F9A83E1E99316800158C4D = {
@@ -415,7 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QMN578H652;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Congressional/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -429,7 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QMN578H652;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Congressional/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
