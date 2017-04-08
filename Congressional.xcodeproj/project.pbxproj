@@ -59,6 +59,7 @@
 		C2F9A84E1E99316800158C4D /* CongressionalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongressionalUITests.swift; sourceTree = "<group>"; };
 		C2F9A8501E99316800158C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2F9A85C1E9947DD00158C4D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C2F9A8651E9974D900158C4D /* Congressional-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Congressional-Bridging-Header.h"; path = "../../../../.Trash/Congressional-Bridging-Header.h"; sourceTree = "<group>"; };
 		D3D66ED2528D75D59F34B3F6 /* Pods-CongressionalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CongressionalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CongressionalTests/Pods-CongressionalTests.release.xcconfig"; sourceTree = "<group>"; };
 		D951A1B5A934BB99CC10CBB7 /* Pods_Congressional.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Congressional.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -146,6 +147,7 @@
 				C2F9A8371E99316800158C4D /* LaunchScreen.storyboard */,
 				C2F9A85C1E9947DD00158C4D /* GoogleService-Info.plist */,
 				C2F9A83A1E99316800158C4D /* Info.plist */,
+				C2F9A8651E9974D900158C4D /* Congressional-Bridging-Header.h */,
 			);
 			path = Congressional;
 			sourceTree = "<group>";
@@ -245,6 +247,7 @@
 				TargetAttributes = {
 					C2F9A82A1E99316800158C4D = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					C2F9A83E1E99316800158C4D = {
@@ -606,12 +609,15 @@
 			baseConfigurationReference = 7CB1A4B4666168F2E1AE43DE /* Pods-Congressional.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Congressional/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eccentricayman.Congressional;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Congressional/Congressional-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -621,12 +627,14 @@
 			baseConfigurationReference = ABDE4E6268F82C8D3035B329 /* Pods-Congressional.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Congressional/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eccentricayman.Congressional;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Congressional/Congressional-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
