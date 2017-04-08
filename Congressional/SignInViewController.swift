@@ -56,7 +56,7 @@ class SignInViewController: UIViewController {
                     }
                     else {
                         // Error: check error and show message
-                        println( "Error while signing in")
+                        print( "Error while signing in")
                     }
                     
                 })
@@ -72,7 +72,7 @@ class SignInViewController: UIViewController {
                         
                     }
                     else {
-                        println("soemthign when wrong with register")
+                        print("soemthign when wrong with register")
                     }
                 })
 
@@ -92,4 +92,5 @@ class SignInViewController: UIViewController {
     }
     */
 
+    }
 }

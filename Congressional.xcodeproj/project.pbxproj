@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		70ADB4F6E70B46ECD3D0BEA1 /* Pods_CongressionalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B5F3D34F5DFEF72470A27B /* Pods_CongressionalTests.framework */; };
-		8721012B1E998075009A7938 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8721012A1E998075009A7938 /* GoogleService-Info.plist */; };
 		875C25C71E99833400C08730 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875C25C61E99833400C08730 /* SignInViewController.swift */; };
 		ACBA5B67B52963DF95E4D3B1 /* Pods_CongressionalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237497044907C7C30CF7B9E4 /* Pods_CongressionalUITests.framework */; };
+		C292F35F1E99A50500EE4D1C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C292F35E1E99A50500EE4D1C /* GoogleService-Info.plist */; };
 		C2F9A82F1E99316800158C4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9A82E1E99316800158C4D /* AppDelegate.swift */; };
 		C2F9A8311E99316800158C4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9A8301E99316800158C4D /* ViewController.swift */; };
 		C2F9A8341E99316800158C4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F9A8321E99316800158C4D /* Main.storyboard */; };
 		C2F9A8361E99316800158C4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F9A8351E99316800158C4D /* Assets.xcassets */; };
-		C2F9A8391E99316800158C4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F9A8371E99316800158C4D /* LaunchScreen.storyboard */; };
 		C2F9A8441E99316800158C4D /* CongressionalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9A8431E99316800158C4D /* CongressionalTests.swift */; };
 		C2F9A84F1E99316800158C4D /* CongressionalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9A84E1E99316800158C4D /* CongressionalUITests.swift */; };
 		D16C5F6A76F2BF9C6D50F78A /* Pods_Congressional.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D951A1B5A934BB99CC10CBB7 /* Pods_Congressional.framework */; };
@@ -44,17 +43,16 @@
 		7CB1A4B4666168F2E1AE43DE /* Pods-Congressional.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Congressional.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Congressional/Pods-Congressional.debug.xcconfig"; sourceTree = "<group>"; };
 		7E9F271BAE06F44DDFB2BFE0 /* Pods-CongressionalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CongressionalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CongressionalTests/Pods-CongressionalTests.debug.xcconfig"; sourceTree = "<group>"; };
 		84A7AC291EE54EED93FF4C08 /* Pods-CongressionalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CongressionalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CongressionalUITests/Pods-CongressionalUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		8721012A1E998075009A7938 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		875C25C51E99823B00C08730 /* Congressional-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Congressional-Bridging-Header.h"; sourceTree = "<group>"; };
 		875C25C61E99833400C08730 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		A5B5F3D34F5DFEF72470A27B /* Pods_CongressionalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CongressionalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABDE4E6268F82C8D3035B329 /* Pods-Congressional.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Congressional.release.xcconfig"; path = "Pods/Target Support Files/Pods-Congressional/Pods-Congressional.release.xcconfig"; sourceTree = "<group>"; };
+		C292F35E1E99A50500EE4D1C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C2F9A82B1E99316800158C4D /* Congressional.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Congressional.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F9A82E1E99316800158C4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2F9A8301E99316800158C4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C2F9A8331E99316800158C4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2F9A8351E99316800158C4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C2F9A8381E99316800158C4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2F9A83A1E99316800158C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2F9A83F1E99316800158C4D /* CongressionalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CongressionalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F9A8431E99316800158C4D /* CongressionalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongressionalTests.swift; sourceTree = "<group>"; };
@@ -147,8 +145,7 @@
 				875C25C61E99833400C08730 /* SignInViewController.swift */,
 				C2F9A8321E99316800158C4D /* Main.storyboard */,
 				C2F9A8351E99316800158C4D /* Assets.xcassets */,
-				8721012A1E998075009A7938 /* GoogleService-Info.plist */,
-				C2F9A8371E99316800158C4D /* LaunchScreen.storyboard */,
+				C292F35E1E99A50500EE4D1C /* GoogleService-Info.plist */,
 				C2F9A83A1E99316800158C4D /* Info.plist */,
 				875C25C51E99823B00C08730 /* Congressional-Bridging-Header.h */,
 			);
@@ -292,8 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2F9A8391E99316800158C4D /* LaunchScreen.storyboard in Resources */,
-				8721012B1E998075009A7938 /* GoogleService-Info.plist in Resources */,
+				C292F35F1E99A50500EE4D1C /* GoogleService-Info.plist in Resources */,
 				C2F9A8361E99316800158C4D /* Assets.xcassets in Resources */,
 				C2F9A8341E99316800158C4D /* Main.storyboard in Resources */,
 			);
@@ -502,14 +498,6 @@
 				C2F9A8331E99316800158C4D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C2F9A8371E99316800158C4D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C2F9A8381E99316800158C4D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
