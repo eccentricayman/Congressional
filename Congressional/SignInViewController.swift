@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Firebase
+import FirebaseAuth
 
 class SignInViewController: UIViewController {
 
@@ -76,11 +76,17 @@ class SignInViewController: UIViewController {
                     }
                 })
 
+            }
+    
+    
         }
-    
-    
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        // Dismiss the keyboard when the view is tapped on
+        userEmail.resignFirstResponder()
+        userPassword.resignFirstResponder()
+    }
     
     /*
     // MARK: - Navigation
@@ -91,6 +97,4 @@ class SignInViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
-    }
 }
