@@ -51,11 +51,7 @@ class SignInViewController: UIViewController {
                 FIRAuth.auth()?.signIn(withEmail: email, password: pass, completion: { (user, error) in
                     
                     // Check that user isn't nil
-<<<<<<< HEAD
-                    if user != nil {
-=======
                     if user != nil{
->>>>>>> 31981b481e5af5d89a00ce766d69994fb5215f7c
                         // User is found, go to home screen
                         self.performSegue(withIdentifier: "goToHome", sender: self)
                     }
@@ -72,11 +68,7 @@ class SignInViewController: UIViewController {
                 
                 FIRAuth.auth()?.createUser(withEmail: email, password: pass, completion: { (user, error) in
                     
-<<<<<<< HEAD
-                    if user != nil {
-=======
                     if user != nil{
->>>>>>> 31981b481e5af5d89a00ce766d69994fb5215f7c
                         //User is found
                         self.performSegue(withIdentifier:"goToHome", sender: self)
                     }
