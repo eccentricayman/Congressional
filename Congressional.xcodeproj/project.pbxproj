@@ -13,9 +13,10 @@
 		876D45881E99E05600901F9D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876D45871E99E05600901F9D /* TabBarController.swift */; };
 		87E614481E9A1922006C2AD5 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E614471E9A1922006C2AD5 /* FeedViewController.swift */; };
 		87E6144A1E9A1CC0006C2AD5 /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E614491E9A1CC0006C2AD5 /* FollowViewController.swift */; };
+		87F4C5E61E9A566B00D9B757 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87F4C5E51E9A566B00D9B757 /* GoogleService-Info.plist */; };
+		87F4C5EA1E9A59C400D9B757 /* CardCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F4C5E91E9A59C400D9B757 /* CardCollectionView.swift */; };
 		ACBA5B67B52963DF95E4D3B1 /* Pods_CongressionalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237497044907C7C30CF7B9E4 /* Pods_CongressionalUITests.framework */; };
 		C22FB1CA1E99D5350028FC71 /* website.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22FB1C91E99D5350028FC71 /* website.swift */; };
-		C292F35F1E99A50500EE4D1C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C292F35E1E99A50500EE4D1C /* GoogleService-Info.plist */; };
 		C2F9A82F1E99316800158C4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9A82E1E99316800158C4D /* AppDelegate.swift */; };
 		C2F9A8311E99316800158C4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9A8301E99316800158C4D /* ViewController.swift */; };
 		C2F9A8341E99316800158C4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F9A8321E99316800158C4D /* Main.storyboard */; };
@@ -54,10 +55,11 @@
 		876D45871E99E05600901F9D /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		87E614471E9A1922006C2AD5 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		87E614491E9A1CC0006C2AD5 /* FollowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
+		87F4C5E51E9A566B00D9B757 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		87F4C5E91E9A59C400D9B757 /* CardCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionView.swift; sourceTree = "<group>"; };
 		A5B5F3D34F5DFEF72470A27B /* Pods_CongressionalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CongressionalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABDE4E6268F82C8D3035B329 /* Pods-Congressional.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Congressional.release.xcconfig"; path = "Pods/Target Support Files/Pods-Congressional/Pods-Congressional.release.xcconfig"; sourceTree = "<group>"; };
 		C22FB1C91E99D5350028FC71 /* website.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = website.swift; sourceTree = "<group>"; };
-		C292F35E1E99A50500EE4D1C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C2F9A82B1E99316800158C4D /* Congressional.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Congressional.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F9A82E1E99316800158C4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2F9A8301E99316800158C4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -155,11 +157,12 @@
 				876D45871E99E05600901F9D /* TabBarController.swift */,
 				871436271E9A22FE00A396BD /* PopularViewController.swift */,
 				875C25C61E99833400C08730 /* SignInViewController.swift */,
+				87F4C5E91E9A59C400D9B757 /* CardCollectionView.swift */,
 				C2F9A8321E99316800158C4D /* Main.storyboard */,
 				87E614471E9A1922006C2AD5 /* FeedViewController.swift */,
 				87E614491E9A1CC0006C2AD5 /* FollowViewController.swift */,
+				87F4C5E51E9A566B00D9B757 /* GoogleService-Info.plist */,
 				C2F9A8351E99316800158C4D /* Assets.xcassets */,
-				C292F35E1E99A50500EE4D1C /* GoogleService-Info.plist */,
 				C2F9A83A1E99316800158C4D /* Info.plist */,
 				875C25C51E99823B00C08730 /* Congressional-Bridging-Header.h */,
 				C22FB1C91E99D5350028FC71 /* website.swift */,
@@ -304,9 +307,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C292F35F1E99A50500EE4D1C /* GoogleService-Info.plist in Resources */,
 				C2F9A8361E99316800158C4D /* Assets.xcassets in Resources */,
 				C2F9A8341E99316800158C4D /* Main.storyboard in Resources */,
+				87F4C5E61E9A566B00D9B757 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +479,7 @@
 				876D45881E99E05600901F9D /* TabBarController.swift in Sources */,
 				C22FB1CA1E99D5350028FC71 /* website.swift in Sources */,
 				87E614481E9A1922006C2AD5 /* FeedViewController.swift in Sources */,
+				87F4C5EA1E9A59C400D9B757 /* CardCollectionView.swift in Sources */,
 				87E6144A1E9A1CC0006C2AD5 /* FollowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

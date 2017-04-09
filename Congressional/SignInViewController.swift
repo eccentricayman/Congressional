@@ -45,12 +45,13 @@ class SignInViewController: UIViewController {
     
     
     @IBAction func buttonPressed(_ sender: Any) {
-        if let email = userEmail.text, let pass = userPassword.text {
+        if let email:String = userEmail.text, let pass:String = userPassword.text {
+            print("here")
             if isSignIn{
                 FIRAuth.auth()?.signIn(withEmail: email, password: pass, completion: { (user, error) in
                     
                     // Check that user isn't nil
-                    if let u = user {
+                    if user != nil{
                         // User is found, go to home screen
                         self.performSegue(withIdentifier: "goToHome", sender: self)
                     }
@@ -59,7 +60,7 @@ class SignInViewController: UIViewController {
                         print( "Error while signing in")
                     }
                     
-                })
+                } )
                 
             }
             else {
@@ -67,9 +68,9 @@ class SignInViewController: UIViewController {
                 
                 FIRAuth.auth()?.createUser(withEmail: email, password: pass, completion: { (user, error) in
                     
-                    if let u = user {
+                    if user != nil{
                         //User is found
-                        
+                        self.performSegue(withIdentifier:"goToHome", sender: self)
                     }
                     else {
                         print("soemthign when wrong with register")
