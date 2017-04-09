@@ -20,4 +20,7 @@ target 'Congressional' do
     pod 'Firebase/Core'
     pod 'Firebase/Database'
     pod 'Firebase/Auth'
+    
+    use_frameworks!
+    pod 'Kanna'
 end
