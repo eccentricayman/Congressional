@@ -12,6 +12,36 @@ import Firebase
 
 class FeedViewController: UIViewController {
 
+    @IBOutlet weak var BillCardCell: UICollectionViewCell!
+    @IBOutlet weak var followB: UIButton!
+    @IBOutlet weak var status: UILabel!
+    @IBOutlet weak var summary: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
+    
+    
+    let reuseIdentifier = "card" // also enter this string as the cell identifier in the storyboard
+    var items = [String]()
+    
+    // MARK: - UICollectionViewDataSource protocol
+    
+    // tell the collection view how many cells to make
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return self.items.count
+    }
+    
+    // make a cell for each cell index path
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        // get a reference to our storyboard cell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath as IndexPath) as! BillCardCell
+        
+        // Use the outlet in our custom class to get a reference to the UILabel in the cell
+        cell.myLabel.text = self.items[indexPath.item]
+        cell.backgroundColor = UIColor(red:0.93, green:0.93, blue:0.93, alpha:1.0)
+        
+        return cell
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

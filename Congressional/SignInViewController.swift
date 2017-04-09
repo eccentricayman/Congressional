@@ -50,7 +50,7 @@ class SignInViewController: UIViewController {
                 FIRAuth.auth()?.signIn(withEmail: email, password: pass, completion: { (user, error) in
                     
                     // Check that user isn't nil
-                    if let u = user {
+                    if user != nil {
                         // User is found, go to home screen
                         self.performSegue(withIdentifier: "goToHome", sender: self)
                     }
@@ -67,7 +67,7 @@ class SignInViewController: UIViewController {
                 
                 FIRAuth.auth()?.createUser(withEmail: email, password: pass, completion: { (user, error) in
                     
-                    if let u = user {
+                    if user != nil {
                         //User is found
                         
                     }
