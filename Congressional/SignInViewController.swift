@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Firebase
+import FirebaseAuth
 
 class SignInViewController: UIViewController {
 
@@ -76,11 +76,11 @@ class SignInViewController: UIViewController {
                     }
                 })
 
+            }
+    
+    
         }
-    
-    
     }
-    
     
     /*
     // MARK: - Navigation
@@ -91,6 +91,4 @@ class SignInViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
-    }
 }
