@@ -46,7 +46,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="BQh-4U-dPZ">
             <objects>
-                <tabBarController id="Vw8-L7-HyW" sceneMemberID="viewController">
+                <tabBarController id="Vw8-L7-HyW" customClass="TabBarController" customModule="Congressional" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="I37-wd-o8l"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="2ex-h3-i6j">
@@ -55,6 +55,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
+                        <outlet property="mainTabBar" destination="2ex-h3-i6j" id="T2F-EK-Z7a"/>
                         <segue destination="h82-x4-874" kind="relationship" relationship="viewControllers" id="YsP-Va-dzj"/>
                         <segue destination="RNe-qi-kZD" kind="relationship" relationship="viewControllers" id="EmM-Rl-vwh"/>
                         <segue destination="3Wd-K7-14T" kind="relationship" relationship="viewControllers" id="PIV-Vp-MaS"/>
@@ -117,7 +118,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bvl-4z-ta8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="691" y="208"/>
+            <point key="canvasLocation" x="-1727" y="90"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="1Jd-i8-3p9">
