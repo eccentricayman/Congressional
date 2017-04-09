@@ -82,6 +82,12 @@ class SignInViewController: UIViewController {
         }
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        // Dismiss the keyboard when the view is tapped on
+        userEmail.resignFirstResponder()
+        userPassword.resignFirstResponder()
+    }
+    
     /*
     // MARK: - Navigation
 
