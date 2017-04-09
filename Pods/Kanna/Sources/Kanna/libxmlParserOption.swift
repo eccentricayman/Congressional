@@ -24,10 +24,16 @@ SOFTWARE.
 */
 import Foundation
 
+#if SWIFT_PACKAGE
+import SwiftClibxml2
+#else
+import libxml2
+#endif
+
 /*
 Libxml2HTMLParserOptions
 */
-public struct Libxml2HTMLParserOptions : OptionSetType {
+public struct Libxml2HTMLParserOptions : OptionSet {
     public typealias RawValue = UInt
     private var value: UInt = 0
     init(_ value: UInt) { self.value = value }
@@ -54,7 +60,7 @@ public struct Libxml2HTMLParserOptions : OptionSetType {
 /*
 Libxml2XMLParserOptions
 */
-public struct Libxml2XMLParserOptions: OptionSetType {
+public struct Libxml2XMLParserOptions: OptionSet {
     public typealias RawValue = UInt
     private var value: UInt = 0
     init(_ value: UInt) { self.value = value }

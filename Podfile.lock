@@ -32,13 +32,13 @@ PODS:
     - GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)
   - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
   - GTMSessionFetcher/Core (1.1.9)
-  - Kanna (1.1.1)
+  - Kanna (2.2.1)
 
 DEPENDENCIES:
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
-  - Kanna (~> 1.1.0)
+  - Kanna
 
 SPEC CHECKSUMS:
   Firebase: 2b1cdfba1cda8589f32904a697cc753322bff9d8
@@ -49,8 +49,8 @@ SPEC CHECKSUMS:
   FirebaseInstanceID: 2d0518b1378fe9d685ef40cbdd63d2fdc1125339
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
   GTMSessionFetcher: 5c046c76a1f859bc9c187e918f18e4fc7bb57b5e
-  Kanna: 9d3118cff609bd21eb374be5be590b544941160f
+  Kanna: 182789ab065e8f9a6ccc2a74ce6283d3401c0c4a
 
-PODFILE CHECKSUM: '064390d08f7dd4637f8f5463bf9100015f5d18bb'
+PODFILE CHECKSUM: 58a75ff68b500e5290a3f3957b22abd2ea56a1d0
 
 COCOAPODS: 1.2.0
