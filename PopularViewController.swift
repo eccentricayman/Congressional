@@ -1,5 +1,5 @@
 //
-//  FollowViewController.swift
+//  PopularViewController.swift
 //  Congressional
 //
 //  Created by Celine Yan on 4/9/17.
@@ -7,18 +7,13 @@
 //
 
 import UIKit
-import FirebaseAuth
 
-class FollowViewController: UIViewController {
+class PopularViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
-        FIRAuth.auth()?.addStateDidChangeListener { auth, user in
-            if user == nil {
-                self.performSegue(withIdentifier: "followGate", sender: self)
-            }
-        }
     }
 
     override func didReceiveMemoryWarning() {
