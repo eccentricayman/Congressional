@@ -124,6 +124,7 @@
                         <outlet property="signInButton" destination="hvQ-IU-apZ" id="a7B-U3-l8x"/>
                         <outlet property="userEmail" destination="rjF-Nn-Pge" id="Gcx-fM-YAk"/>
                         <outlet property="userPassword" destination="gcH-5K-Aqc" id="N4e-ws-m9j"/>
+                        <segue destination="Vw8-L7-HyW" kind="modal" identifier="goToHome" id="xFT-AA-bLz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bvl-4z-ta8" userLabel="First Responder" sceneMemberID="firstResponder"/>
